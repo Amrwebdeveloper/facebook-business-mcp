@@ -1,0 +1,44 @@
+{
+  "name": "facebook-business-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for managing Facebook Business (Pages, Posts, Ad Campaigns) through Claude or any MCP-compatible client.",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "facebook-business-mcp": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "inspect": "npx @modelcontextprotocol/inspector node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "facebook",
+    "graph-api",
+    "claude",
+    "ads",
+    "marketing-api",
+    "pages"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/facebook-business-mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "shx": "^0.3.4",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
