@@ -29,7 +29,7 @@ A total of **32 tools** exposed over `stdio` transport.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/facebook-business-mcp.git
+git clone https://github.com/Amrwebdeveloper/facebook-business-mcp.git
 cd facebook-business-mcp
 npm install
 npm run build
