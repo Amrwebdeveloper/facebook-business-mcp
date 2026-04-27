@@ -24,7 +24,22 @@ A total of **32 tools** exposed over `stdio` transport.
 - A Facebook App with the **Marketing API** product enabled (for ads tools)
 - A User Access Token with the right scopes (see below)
 
-## Setup
+## Quick install (Claude Code plugin) — recommended
+
+If you use **Claude Code**, install everything in two commands:
+
+```
+/plugin marketplace add Amrwebdeveloper/facebook-business-mcp
+/plugin install facebook-business@facebook-business-mcp
+```
+
+Claude Code will prompt you for your **Facebook Access Token** once, then keep it in your local secure storage. The MCP server (32 tools, prefixed `fb_`) is auto-registered — no `claude mcp add`, no editing config files. First launch installs runtime dependencies (one time, a few seconds).
+
+To get a token, see [Generate an Access Token](#3-generate-an-access-token) below.
+
+---
+
+## Manual setup
 
 ### 1. Clone and install
 

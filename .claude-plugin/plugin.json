@@ -1,0 +1,35 @@
+{
+  "name": "facebook-business",
+  "description": "Facebook Business MCP — manage Pages, Posts, Comments, Ad Accounts, Campaigns, Ad Sets, Ads, and Insights from Claude Code via the Graph API.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Amr",
+    "url": "https://github.com/Amrwebdeveloper"
+  },
+  "homepage": "https://github.com/Amrwebdeveloper/facebook-business-mcp",
+  "repository": "https://github.com/Amrwebdeveloper/facebook-business-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "facebook",
+    "graph-api",
+    "marketing-api",
+    "pages",
+    "ads"
+  ],
+  "userConfig": {
+    "fb_access_token": {
+      "type": "string",
+      "title": "Facebook Access Token",
+      "description": "Your long-lived Facebook Graph API access token. Generate one at https://developers.facebook.com/tools/explorer/ and extend it at https://developers.facebook.com/tools/debug/accesstoken/",
+      "required": true,
+      "sensitive": true
+    },
+    "fb_api_version": {
+      "type": "string",
+      "title": "Facebook Graph API Version",
+      "description": "The Graph API version to use (e.g. v21.0).",
+      "default": "v21.0"
+    }
+  }
+}

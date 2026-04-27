@@ -1,0 +1,18 @@
+{
+  "name": "facebook-business-mcp",
+  "owner": {
+    "name": "Amr",
+    "url": "https://github.com/Amrwebdeveloper"
+  },
+  "metadata": {
+    "description": "Marketplace for the Facebook Business MCP plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "facebook-business",
+      "source": ".",
+      "description": "Facebook Business MCP — manage Pages, Posts, Ads, and Insights from Claude Code."
+    }
+  ]
+}

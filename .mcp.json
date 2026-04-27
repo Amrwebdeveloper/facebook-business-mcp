@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "facebook-business": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/scripts/launcher.cjs"
+      ],
+      "env": {
+        "FB_ACCESS_TOKEN": "${user_config.fb_access_token}",
+        "FB_API_VERSION": "${user_config.fb_api_version}",
+        "FB_MCP_ROOT": "${CLAUDE_PLUGIN_ROOT}"
+      }
+    }
+  }
+}
